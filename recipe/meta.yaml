@@ -1,5 +1,5 @@
 {% set name = "airy" %}
-{% set version = "0.53.0" %}
+{% set version = "0.55.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/airyhq/airy/archive/{{ version }}.tar.gz
-  sha256: dede29ab87c9827bec32d89add6931958d0a558bc961e882dcadbddac982b3c8
+  sha256: df148ae10d81839c132f098366d94a1848c04f73e0a971fec7910c831719a4a5
 
 build:
   number: 0
@@ -24,7 +24,7 @@ test:
 about:
   home: https://github.com/airyhq/airy
   license: Apache-2.0
-  license_file: 
+  license_file:
     - LICENSE
     - license-files/
   summary: Open Source App Framework to build streaming apps with real-time data
