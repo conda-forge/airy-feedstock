@@ -1,5 +1,5 @@
 {% set name = "airy" %}
-{% set version = "0.55.0" %}
+{% set version = "0.56.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/airyhq/airy/archive/{{ version }}.tar.gz
-  sha256: df148ae10d81839c132f098366d94a1848c04f73e0a971fec7910c831719a4a5
+  sha256: 351b9b590ba9b626491de941475d6e67042520dfe4550e5f290036dd4cb61eb2
 
 build:
   number: 0
